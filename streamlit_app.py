@@ -11,7 +11,7 @@ def main():
     st.title(f'☄️ Missile Defense')
 
     st.header("Help Policy")
-    st.code("""
+    st.markdown("""
     Any, EXCEPT another cadet’s code (in any form) or Large Language Models (e.g., ChatGPT, Bard, etc.)
     NOTE:
     Never copy another person’s work, including another cadet’s or a solution found online, and submit it as your own.
