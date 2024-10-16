@@ -10,7 +10,11 @@ def main():
 
     st.title(f'☄️ Missile Defense')
 
-    # your content
+    st.header("Help Policy")
+
+    st.header("Documentation Policy")
+
+    st.header("Instructions")
 
 
 if __name__ == '__main__':
