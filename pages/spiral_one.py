@@ -20,6 +20,7 @@ def main():
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""")
     st.header("Functions")
     st.code("""draw_missiles()\n'''Add description'''""")
+    st.code("""draw_meteors()\n'''Add description'''""")
     st.code("draw_cities()\n'''Add description'''""")
     st.code("draw_explosions()\n'''Add description'''""")
 
