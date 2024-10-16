@@ -19,10 +19,10 @@ def main():
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""")
     st.header("Functions")
-    st.code("""draw_missiles()\n'''Add description'''""")
-    st.code("""draw_meteors()\n'''Add description'''""")
-    st.code("draw_cities()\n'''Add description'''""")
-    st.code("draw_explosions()\n'''Add description'''""")
+    st.code("""draw_missiles(missiles)\n'''Add description'''""")
+    st.code("""draw_meteors(meteors)\n'''Add description'''""")
+    st.code("draw_cities(cities)\n'''Add description'''""")
+    st.code("draw_explosions(explosions)\n'''Add description'''""")
 
 if __name__ == '__main__':
     main()
