@@ -30,7 +30,7 @@ def main():
     st.code("""draw_missiles(missiles)\n'''Add description'''""")
     st.code("""draw_meteors(meteors)\n'''Add description'''""")
     st.code("""draw_cities(cities)\n'''Add description'''""")
-    st.code(""""draw_explosions(explosions)\n'''Add description'''""")
+    st.code("""draw_explosions(explosions)\n'''Add description'''""")
 
 if __name__ == '__main__':
     main()
