@@ -3,6 +3,8 @@ import streamlit as st
 
 def main():
     # builds the sidebar menu
+    VIDEO_URL = "https://www.youtube.com/watch?v=fxEiYim3Z3M"
+
     with st.sidebar:
         st.page_link('streamlit_app.py', label='Missile Defense', icon='☄️')
         st.page_link('pages/spiral_one.py', label='Spiral One', icon='🌠')
@@ -31,6 +33,7 @@ def main():
 
     st.header("Instructions")
 
-
+    st.header("Placeholder Video")
+    st.video(VIDEO_URL)
 if __name__ == '__main__':
     main()
