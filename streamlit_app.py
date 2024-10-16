@@ -11,11 +11,12 @@ def main():
     st.title(f'☄️ Missile Defense')
 
     st.header("Help Policy")
+    st.subheader("Authorized Resources")
     st.markdown("""
     Any, **EXCEPT** another cadet’s code (in any form) or Large Language Models (e.g., ChatGPT, Bard, etc.)
     """)
+    st.markdown("Note")
     st.markdown("""
-    **NOTE**():
     Never copy another person’s work, including another cadet’s or a solution found online, and submit it as your own.
     Do not jointly create a program.
     LLMs, such as ChatGPT, are not allowed to write code for this assignment.   
