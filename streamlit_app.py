@@ -11,7 +11,15 @@ def main():
     st.title(f'☄️ Missile Defense')
 
     st.header("Help Policy")
-
+    st.code("""
+    Any, EXCEPT another cadet’s code (in any form) or Large Language Models (e.g., ChatGPT, Bard, etc.)
+    NOTE:
+    Never copy another person’s work, including another cadet’s or a solution found online, and submit it as your own.
+    Do not jointly create a program.
+    LLMs, such as ChatGPT, are not allowed to write code for this assignment.   
+    You must document all help received from sources other than an instructor.
+    DFCS will recommend a course grade of F for any cadet who egregiously violates this Help Policy or contributes to a violation by others.
+    """)
     st.header("Documentation Policy")
 
     st.header("Instructions")
