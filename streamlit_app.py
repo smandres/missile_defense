@@ -9,9 +9,9 @@ def main():
         st.page_link('pages/spiral_two.py', label='Spiral Two', icon='👩‍🚀')
 
     st.title(f'☄️ Missile Defense')
-
+    st.code("This is just an example of the app")
     st.header("Help Policy")
-    
+
     st.markdown("""
                 **Authorized Resources**: Any, **EXCEPT** another cadet’s code (in any form) or Large Language Models (e.g., ChatGPT, Bard, etc.)
     """)
