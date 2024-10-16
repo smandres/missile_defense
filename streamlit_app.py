@@ -24,7 +24,7 @@ def main():
 
     st.markdown("""
     You must document all help received from sources other than an instructor.
-    DFCS will recommend a course grade of F for any cadet who egregiously violates this Help Policy or contributes to a violation by others.
+    **DFCS will recommend a course grade of F for any cadet who egregiously violates this Help Policy or contributes to a violation by others.**
     """)
 
     st.header("Documentation Policy")
